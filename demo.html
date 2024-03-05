@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+<style>
+
+#border{
+    border: 2px solid black;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 7px;
+    box-shadow: 10px 10px  blueviolet;
+    background-color: rgb(18, 19, 15);
+}
+p{
+    font-family: "Madimi One", sans-serif;
+    color: cadetblue;
+    font-size: large;
+    padding-left: 15px;
+
+}
+#heading{
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+    color: cadetblue;
+
+}
+.lable{
+    font-family: "Madimi One", sans-serif;
+    color: cadetblue;
+    padding-left: 10px;
+    margin-bottom: 5px;
+
+}
+.box{
+   margin-left: 10px;
+padding: 5px;
+   margin-bottom: 5px;
+    width: 400px
+    
+    
+    
+}
+
+
+#btn{
+    width: 415px;
+    padding: 5px;
+    font-size: large;
+    border-radius: 7px;
+    margin-left: 8px;
+}
+#btn:hover{
+    font-family: "Madimi One", sans-serif;
+
+    color: blueviolet;
+    background-color: burlywood;
+}
+
+#foot{
+    font-family: "Madimi One", sans-serif;
+    font-size: small;
+    color: cadetblue;
+    padding-left: 10px;
+}
+#back{
+    background-color: rgb(187, 224, 112);
+}
+
+</style>
+
+
+  
+</head>
+<body > 
+
+    <form id="border">
+        <h2 id="heading">Discount Calculator</h2>
+        <p>Enter the Bill amount and discount in percentage</p>
+
+        <table>
+            
+            <tr><td class="lable"><label for="">Bill Amount</label></td></tr>
+            <tr><td ><input class="box" type="number"></td></tr>
+            <tr><td class="lable"><label for="">Discount Percentage</label></td></tr>
+            <tr><td ><input class="box" type="number"></td></tr>
+            <tr><td><button id="btn">Calculate</button></td></tr>
+            <tr><td id="foot"><label for="">Total Discount Amount</label></td></tr>
+        </table>
+    </form>
+</body>
+</html>
