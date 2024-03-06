@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 #main{
-    border: 2px solid cadetblue;
+    
     border-radius: 10px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -23,9 +23,12 @@
     
 }
 #list li{
+    list-style: "✍️ ";
  margin: 10px;
  font-family: "Roboto", sans-serif;
- color: chocolate;
+ color: rgb(19, 8, 2);
+ 
+ 
  
 }
     
@@ -34,12 +37,13 @@ display: inline;
 }
 #list {
     display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #main2{
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-box-shadow: 10px 10px 5px 0px rgba(16, 16, 16, 0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(5, 3, 3, 0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(8, 7, 7, 0.75);
     border: 2px solid cadetblue;
     width: 600px;
     margin: 50px auto;
